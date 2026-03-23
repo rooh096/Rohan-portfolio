@@ -3,11 +3,11 @@
 import { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 
-import { AnimatedSection } from "@/components/animated-section";
-import { SectionShell } from "@/components/section-shell";
-import { Icon } from "@/components/ui/icon";
-import { TypingText } from "@/components/ui/typing-text";
-import type { HeroData, SummaryCard } from "@/data/portfolio";
+import { AnimatedSection } from "./animated-section";
+import { SectionShell } from "./section-shell";
+import { Icon } from "./icon";
+import { TypingText } from "./typing-text";
+import type { HeroData, SummaryCard } from "./portfolio";
 
 type HeroSectionProps = {
   hero: HeroData;
