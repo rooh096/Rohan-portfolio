@@ -2,11 +2,11 @@
 
 import { motion } from "framer-motion";
 
-import { AnimatedSection } from "@/components/animated-section";
-import { SectionHeading } from "@/components/section-heading";
-import { SectionShell } from "@/components/section-shell";
-import { Icon } from "@/components/ui/icon";
-import type { Achievement } from "@/data/portfolio";
+import { AnimatedSection } from "./animated-section";
+import { SectionHeading } from "./section-heading";
+import { SectionShell } from "./section-shell";
+import { Icon } from "./icon";
+import type { Achievement } from "./portfolio";
 
 type AchievementsSectionProps = {
   achievements: Achievement[];
